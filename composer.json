@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Sitewards_StockCheck_Framework",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "This extension provides an easy to use framework for overriding the standard Magento Product price model.",
+    "authors": [
+    {
+        "name": "Sitewards Magento Team",
+        "email": "magento@sitewards.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
