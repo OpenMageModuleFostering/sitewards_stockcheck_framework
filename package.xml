@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Sitewards_StockCheck_Framework</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <stability>stable</stability>
     <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
     <channel>community</channel>
@@ -9,14 +9,12 @@
     <summary>This extension provides an easy to use framework for overriding the standard Magento Product price model.</summary>
     <description>This extension is aimed at developers who want to load the price of a product in realtime from another source.&#xD;
 Coding is required but can be provided at a cost.</description>
-    <notes>Removed Mage_Checkout CartController rewrite.&#xD;
-Added interface for StockCheck helper.&#xD;
-Extension moved to community code pool.&#xD;
+    <notes>Checked compatibility with magento community 1.8.0.0.&#xD;
 </notes>
     <authors><author><name>Sitewards Magento Team</name><user>sitewards</user><email>magento@sitewards.com</email></author></authors>
-    <date>2013-06-16</date>
-    <time>20:34:55</time>
-    <contents><target name="magecommunity"><dir name="Sitewards"><dir name="StockCheck"><dir name="Helper"><file name="Data.php" hash="3f3e587feeaf4c50b01f101b650348d2"/><file name="Interface.php" hash="4fee3d3d744a5a0064a422186aeade77"/></dir><dir name="Model"><dir name="Cart"><file name="Observer.php" hash="8a4cc7443759e231018bfb4c5cfc6a4c"/></dir><file name="Product.php" hash="c1f3f1baccc002eb64e8497c3d59ea05"/></dir><dir name="etc"><file name="config.xml" hash="450e0547fadba92f5e376348684fb13f"/><file name="system.xml" hash="6abe9d8385dbb26aa2ba3f064230fe24"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sitewards_StockCheck.xml" hash="4457e64cbf4b478fd6a45961f742936f"/></dir></target></contents>
+    <date>2013-10-10</date>
+    <time>18:55:38</time>
+    <contents><target name="magecommunity"><dir name="Sitewards"><dir name="StockCheck"><dir name="Helper"><file name="Data.php" hash="3f3e587feeaf4c50b01f101b650348d2"/><file name="Interface.php" hash="4fee3d3d744a5a0064a422186aeade77"/></dir><dir name="Model"><dir name="Cart"><file name="Observer.php" hash="8a4cc7443759e231018bfb4c5cfc6a4c"/></dir><file name="Product.php" hash="c1f3f1baccc002eb64e8497c3d59ea05"/></dir><dir name="etc"><file name="config.xml" hash="193a696fa087b7914530e40c5643b91d"/><file name="system.xml" hash="6abe9d8385dbb26aa2ba3f064230fe24"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sitewards_StockCheck.xml" hash="4457e64cbf4b478fd6a45961f742936f"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
